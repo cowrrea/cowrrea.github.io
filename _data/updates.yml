@@ -1,0 +1,11 @@
+# Updates items shown on the home page sidebar.
+# The 3 most recent are shown; all appear on /allupdates.
+# Each entry needs: date, headline
+- date: 03/03/2026
+  headline: 'Gave a talk at <a href="https://sites.google.com/view/eco-5" target="_blank">ECO-5@Harvard</a> titled "Latvian ditransitives: Evidence for a low applicative structure".'
+
+- date: 09/2025
+  headline: 'Started my first year in the PhD program in Linguistics at <a href="https://www.umass.edu/linguistics/" target="_blank">UMass Amherst</a>.'
+
+- date: 08/2025
+  headline: 'Said goodbye to Hyde Park and Chicago, which I’d called home for the previous 4 years.'

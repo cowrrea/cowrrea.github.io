@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Output - Gabriel Correa</title>
+  <meta name="description" content="Linguist at UMass">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Output">
+  <meta property="og:description" content="Linguist at UMass">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:4000/output/">
+  <meta property="og:image" content="http://localhost:4000/images/correa_headshot.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Output">
+  <meta name="twitter:description" content="Linguist at UMass">
+  <meta name="twitter:image" content="http://localhost:4000/images/correa_headshot.jpg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;0,8..60,800;1,8..60,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/output/">
+  <!-- <link rel="icon" href="http://localhost:4000/favicon.svg" type="image/svg+xml"> -->
+  <!-- <link rel="alternate icon" href="http://localhost:4000/favicon.ico"> -->
+  <link rel="alternate" type="application/rss+xml" title="Gabriel Correa" href="http://localhost:4000/feed.xml">
+
+  <!-- Accent color from config -->
+  
+  <style>
+    :root { --accent: #800000; --accent-hover: #800000; }
+  </style>
+  
+
+  <!-- Dark mode: apply saved theme before paint to prevent flash -->
+  <script>
+    (function() {
+      var darkMode = true;
+      if (!darkMode) return;
+      var saved = localStorage.getItem('theme');
+      if (saved) {
+        document.documentElement.setAttribute('data-bs-theme', saved);
+      } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.setAttribute('data-bs-theme', 'dark');
+      }
+    })();
+  </script>
+
+  
+
+  <script>
+MathJax = {
+    tex: {
+    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+    tags: 'ams'  // should be 'ams', 'none', or 'all' }. This line makes the equation numbering and labeling work
+    }, 
+    svg: {
+    fontCache: 'global'
+    }
+};
+</script>
+<script
+    type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script> 
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Output",
+    "url": "http://localhost:4000/output/",
+    "description": "Linguist at UMass",
+    "author": {
+      "@type": "Person",
+      "name": "Gabriel Correa",
+      "jobTitle": "PhD Student in Linguistics",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Massachusetts Amherst"
+      }
+    }
+  }
+  </script>
+</head>
+
+
+  <body>
+
+    <nav class="navbar sticky-top navbar-expand-md">
+  <div class="container" style="max-width: var(--container-max);">
+    <a class="navbar-brand" href="http://localhost:4000/">
+      <img src="http://localhost:4000/favicon.svg" width="24" height="24" class="d-inline-block align-text-top" alt="" style="border-radius: 5px;">
+      Gabriel Correa
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/about">About</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link active" href="http://localhost:4000/output">Output</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:4000/research">Research</a>
+        </li>
+        
+      </ul>
+      <div class="d-flex align-items-center" style="gap: var(--space-2);">
+        <button class="search-toggle" id="searchToggle" aria-label="Search site">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Search overlay -->
+<div class="search-overlay" id="searchOverlay">
+<div class="search-modal">
+<div class="search-input-wrapper">
+<i class="fa-solid fa-magnifying-glass search-input-icon"></i>
+<input type="text" class="search-input" id="searchInput" placeholder="Search pages..." autocomplete="off">
+<kbd class="search-kbd">ESC</kbd>
+</div>
+<div class="search-results" id="searchResults"></div>
+</div>
+</div>
+
+
+    <main class="site-container">
+      <div class="fade-in-section">
+  <h2 id="output">Output</h2>
+
+<p><input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year..." /></p>
+
+<div class="section-card" id="pubList">
+
+  <h3>Presentations</h3>
+
+  <h4>⤳ Talks</h4>
+  <ul class="bibliography" reversed="reversed"><li><div class="pub-entry" data-pub-searchable="">
+  <!-- bold name -->
+  <div class="text-justify"><span id="correaLatvianDitransitivesEvidence2026"><b>Correa, Gabriel</b>. 2026. Latvian Ditransitives: Evidence for a Low Applicative Structure. Talk. <a href="https://sites.google.com/view/eco-5" target="_blank">ECO-5 Workshop at Harvard University</a>.</span></div>
+
+	<!-- TODO: italicize title of manuscripts and talks -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+    <a href="http://localhost:4000/papers/correaLatvianDitransitivesEvidence2026.pdf" target="_blank" class="btn-pill btn-pdf">PDF</a>
+    
+
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-correaLatvianDitransitivesEvidence2026">BIB</button>
+    
+
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-correaLatvianDitransitivesEvidence2026">
+    <pre>@misc{correaLatvianDitransitivesEvidence2026,
+  title = {Latvian Ditransitives: {{Evidence}} for a Low Applicative Structure},
+  author = {Correa, Gabriel},
+  year = {2026},
+  month = mar,
+  type = {Talk},
+  address = {<a href="https://sites.google.com/view/eco-5" target="_blank">ECO-5 Workshop at Harvard University</a>},
+  file = {correaLatvianDitransitivesEvidence2026.pdf}
+}
+</pre>
+  </div>
+  
+
+  
+</div>
+</li></ul>
+
+  <h3>Edited volumes</h3>
+  <ul class="bibliography" reversed="reversed"><li><div class="pub-entry" data-pub-searchable="">
+  <!-- bold name -->
+  <div class="text-justify"><span id="correaProceedingsFiftysixthAnnualForthcoming"><b>Correa, Gabriel</b> &amp; Kevin Morand (eds.). Forthcoming. <i>Proceedings of the Fifty-sixth Annual Meeting of the North East Linguistics Society</i>. Amherst: GLSA.</span></div>
+
+	<!-- TODO: italicize title of manuscripts and talks -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-correaProceedingsFiftysixthAnnualForthcoming">BIB</button>
+    
+
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-correaProceedingsFiftysixthAnnualForthcoming">
+    <pre>@book{correaProceedingsFiftysixthAnnualForthcoming,
+  title = {Proceedings of the {{Fifty-sixth Annual Meeting}} of the {{North East Linguistics Society}}},
+  editor = {Correa, Gabriel and Morand, Kevin},
+  year = {Forthcoming},
+  publisher = {GLSA},
+  address = {Amherst}
+}
+</pre>
+  </div>
+  
+
+  
+</div>
+</li></ul>
+
+  <h3>Unpublished Manuscripts</h3>
+  <p><em>Feel free to contact me for any unpublished materials!</em></p>
+  <ul class="bibliography" reversed="reversed"><li><div class="pub-entry" data-pub-searchable="">
+  <!-- bold name -->
+  <div class="text-justify"><span id="correaScramblingLatvianDoubleObject2026"><b>Correa, Gabriel</b>. 2026. Scrambling in Latvian Double-Object Constructions. University of Massachusetts Amherst, ms.</span></div>
+
+	<!-- TODO: italicize title of manuscripts and talks -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-correaScramblingLatvianDoubleObject2026">BIB</button>
+    
+
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-correaScramblingLatvianDoubleObject2026">
+    <pre>@unpublished{correaScramblingLatvianDoubleObject2026,
+  title = {Scrambling in {{Latvian Double-Object Constructions}}},
+  author = {Correa, Gabriel},
+  year = {2026},
+  publisher = {University of Massachusetts Amherst}
+}
+</pre>
+  </div>
+  
+
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <!-- bold name -->
+  <div class="text-justify"><span id="correaInsightsLongdistanceAgreement2025"><b>Correa, Gabriel</b>. 2025. Insights from Long-Distance Agreement in Blackfoot. The University of Chicago, ms.</span></div>
+
+	<!-- TODO: italicize title of manuscripts and talks -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-correaInsightsLongdistanceAgreement2025">BIB</button>
+    
+
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-correaInsightsLongdistanceAgreement2025">
+    <pre>@unpublished{correaInsightsLongdistanceAgreement2025,
+  title = {Insights from Long-Distance Agreement in {{Blackfoot}}},
+  author = {Correa, Gabriel},
+  year = {2025},
+  publisher = {The University of Chicago}
+}
+</pre>
+  </div>
+  
+
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <!-- bold name -->
+  <div class="text-justify"><span id="correaObviationDependentCase2025"><b>Correa, Gabriel</b>. 2025. <i>Obviation as Dependent Case: Evidence from Blackfoot Pronominal Enclitics</i>. The University of Chicago. B.A. Thesis.</span></div>
+
+	<!-- TODO: italicize title of manuscripts and talks -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-correaObviationDependentCase2025">BIB</button>
+    
+
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-correaObviationDependentCase2025">
+    <pre>@thesis{correaObviationDependentCase2025,
+  type = {B.{{A}}. {{Thesis}}},
+  title = {Obviation as Dependent Case: {{Evidence}} from {{Blackfoot}} Pronominal Enclitics},
+  author = {Correa, Gabriel},
+  year = {2025},
+  school = {The University of Chicago.}
+}
+</pre>
+  </div>
+  
+
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <!-- bold name -->
+  <div class="text-justify"><span id="correaBrazilianPortugueseAfrican2024"><b>Correa, Gabriel</b>. 2024. Brazilian Portuguese &amp; The African Influence: Logophoricity and Null Subjects. The University of Chicago, ms.</span></div>
+
+	<!-- TODO: italicize title of manuscripts and talks -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-correaBrazilianPortugueseAfrican2024">BIB</button>
+    
+
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-correaBrazilianPortugueseAfrican2024">
+    <pre>@unpublished{correaBrazilianPortugueseAfrican2024,
+  title = {Brazilian {{Portuguese}} \&amp; {{The African Influence}}: Logophoricity and Null Subjects},
+  author = {Correa, Gabriel},
+  year = {2024},
+  publisher = {The University of Chicago}
+}
+</pre>
+  </div>
+  
+
+  
+</div>
+</li>
+<li><div class="pub-entry" data-pub-searchable="">
+  <!-- bold name -->
+  <div class="text-justify"><span id="correaIndefiniteNullSubjects2023"><b>Correa, Gabriel</b>. 2023. Indefinite Null Subjects in Brazilian Portuguese. The University of Chicago, ms.</span></div>
+
+	<!-- TODO: italicize title of manuscripts and talks -->
+
+  
+  
+
+  <div class="pub-actions">
+    
+
+    
+
+    
+    <button class="btn-pill btn-bib" data-toggle-target="bib-correaIndefiniteNullSubjects2023">BIB</button>
+    
+
+    
+  </div>
+
+  
+  <div class="pub-collapse" id="bib-correaIndefiniteNullSubjects2023">
+    <pre>@unpublished{correaIndefiniteNullSubjects2023,
+  title = {Indefinite Null Subjects in {{Brazilian Portuguese}}},
+  author = {Correa, Gabriel},
+  year = {2023},
+  publisher = {The University of Chicago}
+}
+</pre>
+  </div>
+  
+
+  
+</div>
+</li></ul>
+
+</div>
+
+</div>
+
+    </main>
+
+    <footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <h5>About</h5>
+      <p>
+        Gabriel Correa<br>
+        PhD Student in Linguistics<br>
+        University of Massachusetts Amherst
+      </p>
+    </div>
+    <div>
+      <h5>Contact &amp; Links</h5>
+      <p>
+        <a href="mailto:gbcorrea [at] umass [dot] edu"><i class="fa-solid fa-envelope"></i> gbcorrea [at] umass [dot] edu</a><br>
+        
+				<a href="https://cv.gabriel-correa.com/cv_gabrielcorrea.pdf" target="_blank"><i class="ai ai-cv"></i> Curriculum Vitae</a>
+				
+        
+        <!-- <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa-brands fa-github"></i> Use this template!</a> -->
+      </p>
+    </div>
+  </div>
+  <div class="footer-grid">
+    <div class="footer-copyright" style="grid-column: 1 / -1;">
+      <p>&copy; 2026 Gabriel Correa <i>built from</i> <a href="https://github.com/sbryngelson/academic-website-template" target="_blank">academic-website-template theme</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/site.min.js"></script>
+
+
+  </body>
+
+</html>
