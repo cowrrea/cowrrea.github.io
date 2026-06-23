@@ -37,7 +37,7 @@ permalink: /about/
 <!-- TODO: add audio recording of my name -->
 
 In Brazilian Portuguese, my name is pronounced **[ga.bɾiˈɛʊ̯ koˈheɪ̯.ɐ]**. I am very used to the English pronunciation of my name, which is what most people call me today. I do not mind the Spanish pronunciation either.
-As for my last name, I also happily accept any variation of **/kowˈhej.a/**, **/kowˈɹej.a/**, or **/koˈre.a/**.
+As for my last name, I also happily accept any variation of **/kəˈɹe.jə/** or **/koˈre.a/**.
 
 <!-- {% if site.data.grants %}
 <div class="section-card">

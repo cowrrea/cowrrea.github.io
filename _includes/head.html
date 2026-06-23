@@ -41,7 +41,7 @@
   <!-- Dark mode: apply saved theme before paint to prevent flash -->
   <script>
     (function() {
-      var darkMode = {{ site.dark_mode | default: true }};
+      var darkMode = {{ site.dark_mode | default: false }};
       if (!darkMode) return;
       var saved = localStorage.getItem('theme');
       if (saved) {
