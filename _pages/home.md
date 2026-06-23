@@ -12,20 +12,6 @@ Hi! I am a first-year PhD student in the <a href="https://www.umass.edu/linguist
 
 Before coming to UMass, I got my B.A. in Linguistics with honors at the <a href="https://linguistics.uchicago.edu" target="_blank">University of Chicago</a> in 2025, where I wrote my undergraduate thesis titled "Obviation as dependent case: Evidence from Blackfoot pronominal enclitics", advised by <a href="https://home.uchicago.edu/karlos/" target="_blank">Karlos Arregi</a>.
 
-
-### Updates
-
-<div class="updates-timeline">
-{% for article in site.data.updates limit:5 %}
-<div class="updates-item">
-<span class="updates-date">{{ article.date }}</span><br>
-<span class="updates-headline">{{ article.headline }}</span>
-</div>
-{% endfor %}
-</div>
-
-<p style="margin-top: var(--space-4);"><a href="{{ site.url }}{{ site.baseurl }}/allupdates.html">See all updates &rarr;</a></p>
-
 <!-- <div class="chip-container" markdown="0">
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Electrodynamics</a>
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Path Integrals</a>
