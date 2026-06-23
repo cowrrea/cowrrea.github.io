@@ -1,0 +1,115 @@
+# ============================================================
+# STEP 1: Your Identity (required)
+# ============================================================
+name: "Gabriel Correa"
+pronouns: "he/him"
+title: "PhD Student in Linguistics"
+institution: "University of Massachusetts Amherst"
+email: gbcorrea [at] umass [dot] edu
+photo: correa_headshot.jpg  # in images/
+education:
+  - "(2025) A.B. Linguistics with Honors, <i>cum laude</i>, The University of Chicago"
+# educationshort:
+  # - "(2025) A.B. Linguistics, UChicago"
+
+# ============================================================
+# STEP 2: Your Links (optional -- delete any you don't use)
+# ============================================================
+links:
+  google_scholar: ""
+  github: ""
+  researchgate: ""
+  orcid: ""
+  twitter: ""
+  linkedin: ""
+  cv: "https://cv.gabriel-correa.com/cv_gabrielcorrea.pdf"  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
+
+# ============================================================
+# STEP 3: Site Settings
+# ============================================================
+accent_color: "#800000"      # theme color for links and buttons
+dark_mode: false              # show dark mode toggle in navbar
+description: "Linguist at UMass"
+baseurl: ""
+url: ""
+
+# Google Analytics — paste your GA4 measurement ID, or leave blank
+analytics:
+  google_id: ""
+
+# ============================================================
+# STEP 4: Choose Your Pages (comment out any you don't need)
+# ============================================================
+nav_pages:
+  - name: about
+  - name: output
+  - name: research
+#  - name: talks
+#  - name: software
+#  - name: team
+#  - name: teaching
+#  - name: blogs
+
+# ============================================================
+# Advanced Settings (you probably don't need to change these)
+# ============================================================
+include:
+  - .htaccess
+  - _pages
+
+sass:
+  quiet_deps: true
+  style: compressed
+
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true
+
+plugins: ["jekyll/scholar", "jekyll-sitemap"]
+
+scholar:
+  last_name: Correa
+  first_name: Gabriel
+  style: unified-style-sheet-for-linguistics
+  locale: en
+  source: /assets/
+  bibtex_filters:
+    - latex
+  bibliography: ref.bib
+  bibliography_template: bibtemplate
+  bibliography_list_tag: ul
+  sort_by: year, month
+  order: descending
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+  query: "@*"
+  bibliography_list_attributes:
+    reversed: "reversed"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - update_bootstrap.sh
+  - switch_theme.sh
+  - tags
+  - Rakefile
+  - node_modules
+  - package.json
+  - package-lock.json
+  - docs
