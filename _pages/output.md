@@ -16,6 +16,9 @@ permalink: /output/
 <h4>⤳ Talks</h4>
 {% bibliography --query @misc[type = Talk] %}
 
+<h4>⤳ Posters</h4>
+{% bibliography --query @misc[type = Poster] %}
+
 <h3>Edited volumes</h3>
 {% bibliography --query @book[title ^= Proceedings] %}
 
