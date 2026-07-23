@@ -1,6 +1,12 @@
 # Updates items shown on the home page sidebar.
 # The 3 most recent are shown; all appear on /allupdates.
 # Each entry needs: date, headline
+- date: 07/2026
+  headline: 'Presented a poster at <a href="https://linguistics.philology.uoc.gr/cssl26/index.php" target="_blank">CreteLing 2026</a> titled "Scrambling in Latvian Double-Object Constructions" <a href="https://gabriel-correa.com/papers/Correa_ScramblingLatvian_CreteLing2026.pdf" target="_blank">(PDF)</a>.'
+
+- date: 07/2026
+  headline: 'Attended the <a href="https://sites.google.com/view/caulageperia2026" target="_blank">CauLaGe</a> summer program in Peria, Georgia where I did fieldwork in Abkhaz.'
+
 - date: 03/03/2026
   headline: 'Gave a talk at <a href="https://sites.google.com/view/eco-5" target="_blank">ECO-5@Harvard</a> titled "Latvian ditransitives: Evidence for a low applicative structure".'
 
