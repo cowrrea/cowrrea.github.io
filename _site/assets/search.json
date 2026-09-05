@@ -1,11 +1,15 @@
 [{
+  "title": "Linguistics 101 (Fall 2026)",
+  "url": "/101-f26/",
+  "content": "Linguistics 101 (Fall 2026)\n\n\n\nView from Batumi, Georgia.\n\n\nOffice Hours\n\nTuesday and Thursday 1:00-2:00pm &amp; by appointment\nN431A (Linguistics Department, ILC 4th floor)\n\nSections\n\n\n  Section AA: Friday 11:15am-12:05pm Hasbrouck Lab Add room 109\n  Section AB: Friday 12:20-1:10pm Hasbrouck Lab Add room 109\n\n\nMaterials\n\nWeek 1: Introduction\n"
+},{
   "title": "About",
   "url": "/about/",
   "content": "About\n\n\n  \n    \n    \n      Gabriel Correa (he/him)\n      \n      \n(In progress) PhD Student in Linguistics, University of Massachusetts Amherst\n\n\n(2025) A.B. Linguistics with Honors, cum laude, The University of Chicago\n\n\n\n      \n        \n\n\n      \n    \n  \n\n\nHow to say my name\n\n\n\nIn Brazilian Portuguese, my name is pronounced [ga.bɾiˈɛʊ̯ koˈheɪ̯.ɐ]. I am very used to the English pronunciation of my name, which is what most people call me today. I do not mind the Spanish pronunciation either.\nAs for my last name, I also happily accept any variation of /kəˈɹe.jə/ or /koˈre.a/.\n\n\n"
 },{
   "title": "Updates",
   "url": "/allupdates.html",
-  "content": "Updates\n\n\n\n\n\n03/03/2026\nGave a talk at ECO-5@Harvard titled \"Latvian ditransitives: Evidence for a low applicative structure\".\n\n\n\n09/2025\nStarted my first year in the PhD program in Linguistics at UMass Amherst.\n\n\n\n08/2025\nSaid goodbye to Hyde Park and Chicago, which I’d called home for the previous 4 years.\n\n\n\n\n"
+  "content": "Updates\n\n\n\n\n\n07/2026\nPresented a poster at CreteLing 2026 titled \"Scrambling in Latvian Double-Object Constructions\" (PDF).\n\n\n\n07/2026\nAttended the CauLaGe summer program in Peria, Georgia where I did fieldwork in Abkhaz.\n\n\n\n03/03/2026\nGave a talk at ECO-5@Harvard titled \"Latvian ditransitives: Evidence for a low applicative structure\".\n\n\n\n09/2025\nStarted my first year in the PhD program in Linguistics at UMass Amherst.\n\n\n\n08/2025\nSaid goodbye to Hyde Park and Chicago, which I’d called home for the previous 4 years.\n\n\n\n\n"
 },{
   "title": "Blog",
   "url": "/blogs/",
@@ -13,11 +17,11 @@
 },{
   "title": "Home",
   "url": "/",
-  "content": "Gabriel Correa\nPhD Student in Linguistics, University of Massachusetts Amherst\n\nHi! I am a first-year PhD student in the Department of Linguistics at the University of Massachusetts Amherst. I am primarily interested in theoretical syntax.\n\nBefore coming to UMass, I got my B.A. in Linguistics with honors at the University of Chicago in 2025, where I wrote my undergraduate thesis titled “Obviation as dependent case: Evidence from Blackfoot pronominal enclitics”, advised by Karlos Arregi.\n\n\n\n\n"
+  "content": "Gabriel Correa\nPhD Student in Linguistics, University of Massachusetts Amherst\n\nHi! I am a first-year PhD student in the Department of Linguistics at the University of Massachusetts Amherst. I am primarily interested in theoretical syntax and the syntax-semantics interface.\n\nBefore coming to UMass, I got my B.A. in Linguistics with honors at the University of Chicago in 2025, where I wrote my undergraduate thesis titled “Obviation as dependent case: Evidence from Blackfoot pronominal enclitics”, advised by Karlos Arregi.\n\n\n\n\n"
 },{
   "title": "Output",
   "url": "/output/",
-  "content": "Output Presentations ⤳ Talks Correa, Gabriel. 2026. Latvian Ditransitives: Evidence for a Low Applicative Structure. Talk. ECO-5 Workshop at Harvard University. Handout BIB @misc{correaLatvianDitransitivesEvidence2026, title = {Latvian Ditransitives: {{Evidence}} for a Low Applicative Structure}, author = {Correa, Gabriel}, year = {2026}, month = mar, date = {2026-03-07}, type = {Talk}, address = {ECO-5 Workshop at Harvard University}, file = {correaLatvianDitransitivesEvidence2026.pdf} } ⤳ Posters Correa, Gabriel. 2026. Scrambling in Latvian Double-Object Constructions. Poster. CreteLing 2026. Poster BIB @misc{correaScramblingLatvianDoubleObject2026a, title = {Scrambling in {{Latvian Double-Object Constructions}}}, author = {Correa, Gabriel}, year = {2026}, month = jul, date = {2026-07-23}, type = {Poster}, address = {{{CreteLing}} 2026}, file = {Correa_ScramblingLatvian_CreteLing2026.pdf} } Edited volumes Correa, Gabriel &amp; Kevin Morand (eds.). Forthcoming. Proceedings of the Fifty-sixth Annual Meeting of the North East Linguistics Society. Amherst: GLSA. BIB @book{correaProceedingsFiftysixthAnnualForthcoming, title = {Proceedings of the {{Fifty-sixth Annual Meeting}} of the {{North East Linguistics Society}}}, editor = {Correa, Gabriel and Morand, Kevin}, year = {Forthcoming}, publisher = {GLSA}, address = {Amherst} } Unpublished Manuscripts Feel free to contact me for any unpublished materials! Correa, Gabriel. 2026. Scrambling in Latvian Double-Object Constructions. University of Massachusetts Amherst, ms. BIB @unpublished{correaScramblingLatvianDoubleObject2026, title = {Scrambling in {{Latvian Double-Object Constructions}}}, author = {Correa,..."
+  "content": "Output Presentations ⤳ Talks Correa, Gabriel. 2026. Latvian Ditransitives: Evidence for a Low Applicative Structure. Talk. ECO-5 Workshop at Harvard University. Handout @misc{correaLatvianDitransitivesEvidence2026, title = {Latvian Ditransitives: {{Evidence}} for a Low Applicative Structure}, author = {Correa, Gabriel}, year = {2026}, month = mar, date = {2026-03-07}, type = {Talk}, address = {ECO-5 Workshop at Harvard University}, file = {correaLatvianDitransitivesEvidence2026.pdf} } ⤳ Posters Correa, Gabriel. 2026. Scrambling in Latvian Double-Object Constructions. Poster. CreteLing 2026. Poster @misc{correaScramblingLatvianDoubleObject2026a, title = {Scrambling in {{Latvian Double-Object Constructions}}}, author = {Correa, Gabriel}, year = {2026}, month = jul, date = {2026-07-23}, type = {Poster}, address = {{{CreteLing}} 2026}, file = {Correa_ScramblingLatvian_CreteLing2026.pdf} } Edited volumes Correa, Gabriel &amp; Kevin Morand (eds.). Forthcoming. Proceedings of the Fifty-sixth Annual Meeting of the North East Linguistics Society. Amherst, MA: GLSA. @book{correaProceedingsFiftysixthAnnualForthcoming, title = {Proceedings of the {{Fifty-sixth Annual Meeting}} of the {{North East Linguistics Society}}}, editor = {Correa, Gabriel and Morand, Kevin}, year = {Forthcoming}, publisher = {GLSA}, address = {Amherst, MA} } Unpublished Manuscripts Feel free to contact me for any unpublished materials! Correa, Gabriel. 2026. Scrambling in Latvian Double-Object Constructions. University of Massachusetts Amherst, ms. @unpublished{correaScramblingLatvianDoubleObject2026, title = {Scrambling in {{Latvian Double-Object Constructions}}}, author = {Correa, Gabriel}, year..."
 },{
   "title": "Research",
   "url": "/research/",
@@ -25,5 +29,5 @@
 },{
   "title": "Teaching",
   "url": "/teaching/",
-  "content": "## Teaching\n\n*Page under construction...!*\n\n\n"
+  "content": "## Teaching\n\n\n\nLinguistics 101: People and Their Language (TA; Fall 2026)\n\n\n"
 }]

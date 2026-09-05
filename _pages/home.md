@@ -8,7 +8,7 @@ permalink: /
 <h2 class="home-hero">{{ site.name }}</h2>
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
-Hi! I am a first-year PhD student in the <a href="https://www.umass.edu/linguistics/" target="_blank">Department of Linguistics at the University of Massachusetts Amherst</a>. I am primarily interested in theoretical syntax.
+Hi! I am a first-year PhD student in the <a href="https://www.umass.edu/linguistics/" target="_blank">Department of Linguistics at the University of Massachusetts Amherst</a>. I am primarily interested in theoretical syntax and the syntax-semantics interface.
 
 Before coming to UMass, I got my B.A. in Linguistics with honors at the <a href="https://linguistics.uchicago.edu" target="_blank">University of Chicago</a> in 2025, where I wrote my undergraduate thesis titled "Obviation as dependent case: Evidence from Blackfoot pronominal enclitics", advised by <a href="https://home.uchicago.edu/karlos/" target="_blank">Karlos Arregi</a>.
 
